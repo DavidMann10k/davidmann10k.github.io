@@ -1,0 +1,20 @@
+---
+layout: default
+title: MANN.BEER
+---
+<h4>Posts</h4>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      {{ post.date | date: "%b %d, %Y" }}&#8212;<a href="{{ post.url }}"> {{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<h4>Pages</h4>
+<ul>
+	{% for page in site.html_pages %}
+			<li>
+				<a href="{{ page.url }}">{{ page.name }}</a>
+			</li>
+	{% endfor %}
+</ul>
