@@ -1,1 +1,1 @@
-# [MANN.BEER](mann.beer)
+# [MANN.BEER](http://mann.beer/)
