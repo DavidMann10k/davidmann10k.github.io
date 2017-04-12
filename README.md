@@ -1,1 +1,1 @@
-# [mann.beer](MANN.BEER)
+# [MANN.BEER](mann.beer)
