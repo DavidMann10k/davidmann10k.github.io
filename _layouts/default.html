@@ -9,7 +9,11 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>{{page.title}} -- mann.engineer</title>
+    {% if page.title %}
+      <title>{{page.title}} -- mann.engineer</title>
+    {% else %}
+      <title>mann.engineer</title>
+    {% endif %}
   </head>
 
   <body>
