@@ -7,8 +7,16 @@ permalink: contact/
 
 <form action="https://getsimpleform.com/messages?form_api_token=80b9e0e48ae6cf8a107ff761aaba4f08" method="post">
   <input type='hidden' name='redirect_to' value='{{ site.url }}/thanks/' />
-  <label for='email'>Email:</label>
-  <input type='email' name='email' />
+  <div class="input-wrapper">
+    <div class="input-group">
+      <label for='name'>Name:</label>
+      <input type='text' name='name' />
+    </div>
+    <div class="input-group">
+      <label for='email'>Email:</label>
+      <input type='email' name='email' />
+    </div>
+  </div>
   <label for='message'>Message:</label>
   <textarea name='message'></textarea>
   <input type='submit' value='Send' />
