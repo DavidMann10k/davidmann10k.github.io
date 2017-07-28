@@ -1,16 +1,33 @@
 ---
 ---
-
 @import "{{ site.theme }}";
 
-header h1 {
+header h1, h2 {
   font-family: 'Exo', sans-serif;
-}
-
-.timeline-Widget {
-	background-color: transparent;
 }
 
 ul li {
 	list-style:none;
+}
+
+/***** contact form *****/
+textarea, input, label {
+  display: block;
+}
+
+textarea, input[type='email'] {
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type='submit'] {
+  margin-top: 4px;
+}
+
+/***** twitter *****/
+.timeline-Widget {
+  background-color: transparent;
 }
