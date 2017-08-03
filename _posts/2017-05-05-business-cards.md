@@ -3,6 +3,12 @@ layout: post
 title: Typed Business Cards
 header: Typed Business Cards
 subtitle: Artisanal cards made with a typewriter
+category: hobby
+
+og_title: Typed Business Cards
+og_description: Making business cards with a typewriter and simple craft supplies.
+og_image: /assets/images/cards/finished-cards.jpg
+og_type: article
 ---
 
 I decided to make my own business cards. I have a typewriter and a box of paper craft supplies so no one can stop me.

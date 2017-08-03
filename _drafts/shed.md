@@ -3,6 +3,7 @@ layout: post
 title: Shed 2016
 header: Shed 2016
 subtitle: Building a shed from scratch
+category: hobby
 ---
 
 In 2016 I decided I need a shed. You can buy prebuilt sheds of all kinds, but I wasn't happy with their price or quality. So I decided to build it myself, from scratch, with gravel, lumber, and nails.
