@@ -6,7 +6,7 @@ subtitle: Make your static site a rich social graph object
 category: blog
 
 og_title: Open Graph for Jekyll
-og_description: Make your favorite static site generator a rich social graph object with the Open Graph protocol.
+og_description: Present your site, made with Jekyll, as a rich social graph object using the Open Graph protocol.
 og_image: /assets/images/jekyll-opg-logo.png
 og_type: article
 ---
