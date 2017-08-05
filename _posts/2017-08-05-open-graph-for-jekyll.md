@@ -7,7 +7,7 @@ category: blog
 
 og_title: Open Graph for Jekyll
 og_description: Make your favorite static site generator a rich social graph object with the Open Graph protocol.
-og_image: /assets/images/cards/jekyll-opg-logo.png
+og_image: /assets/images/jekyll-opg-logo.png
 og_type: article
 ---
 
