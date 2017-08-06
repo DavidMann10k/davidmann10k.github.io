@@ -2,7 +2,7 @@
 layout: post
 title: Typed Business Cards
 header: Typed Business Cards
-subtitle: Artisanal cards made with a typewriter
+subtitle: Artisanal business cards made with a typewriter
 category: blog
 
 og_title: Typed Business Cards

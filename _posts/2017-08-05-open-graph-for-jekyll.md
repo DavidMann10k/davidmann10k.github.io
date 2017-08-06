@@ -2,7 +2,7 @@
 layout: post
 title: Open Graph for Jekyll
 header: Open Graph for Jekyll
-subtitle: Make your static site a rich social graph object
+subtitle: Presenting a website built with Jekyll as a rich social graph object
 category: blog
 
 og_title: Open Graph for Jekyll
