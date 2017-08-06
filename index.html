@@ -11,8 +11,14 @@ og_type: website
 <ul class="posts">
   {% for post in site.posts %}
     <li>
-      <span class="date">{{ post.date | date: "%b %d, %Y" }}</span> <span>&#8212;</span> <a href="{{ post.url }}">{{ post.title }}</a>
-      <div class="subtitle"><em>{{ post.subtitle }}</em></div>
+      <div class="date">
+        {{ post.date | date: "%b %d, %Y" }}
+      </div>
+      <div class="hyphen">&#8212;</div>
+      <div class="title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="subtitle"><em>{{ post.subtitle }}</em></div>
+      </div>
     </li>
   {% endfor %}
 </ul>
@@ -25,4 +31,3 @@ og_type: website
 	{% endfor %}
 </ul>
  -->
-
