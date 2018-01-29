@@ -11,8 +11,13 @@ header h1, h2, h4 {
   font-family: 'Exo', sans-serif;
 }
 
-ul li {
+ul.posts li {
 	list-style:none;
+}
+
+img.block-center {
+  margin: auto;
+  display: block;
 }
 
 .link {

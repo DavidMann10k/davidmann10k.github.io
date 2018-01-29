@@ -3,7 +3,7 @@ layout: post
 title: Shed 2016
 header: Shed 2016
 subtitle: Building a shed from scratch
-category: hobby
+category: blog
 ---
 
 In 2016 I decided I need a shed. You can buy prebuilt sheds of all kinds, but I wasn't happy with their price or quality. So I decided to build it myself, from scratch, with gravel, lumber, and nails.
@@ -29,7 +29,7 @@ Leaving 6" for the rail. Handy dandy measuring stick makes checking easy.
 
 ## Lumber arrived!
 ![Lumber arrived!](http://i.imgur.com/IMxVYMW.jpg)
-Once lumber arrived, after much consternation , the painstaking work of squaring and leveling the rails began. Concrete blocks, spaced no more than 4' apart, were used for the parts of the rail above grade.
+Once lumber arrived, the painstaking work of squaring and leveling the rails began. Concrete blocks, spaced no more than 4' apart, were used for the parts of the rail above grade.
 
 Also, 4x6, 16', treated lumber is no fun at all. Good if you're training like Rocky Balboa; bad if you like the current alignment of your vertebrae.
 
