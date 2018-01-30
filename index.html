@@ -8,16 +8,16 @@ og_image: /assets/images/mann.jpg
 og_type: website
 ---
 <h2>Posts</h2>
-<ul class="posts">
-  {% for post in site.posts %}
+<ul class="items">
+  {% for item in site.categories.blog %}
     <li>
       <div class="date">
-        {{ post.date | date: "%b %d, %Y" }}
+        {{ item.date | date: "%b %d, %Y" }}
       </div>
       <div class="hyphen">&#8212;</div>
       <div class="title">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <div class="subtitle"><em>{{ post.subtitle }}</em></div>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+        <div class="subtitle"><em>{{ item.subtitle }}</em></div>
       </div>
     </li>
   {% endfor %}

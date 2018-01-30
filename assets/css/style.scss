@@ -11,10 +11,6 @@ header h1, h2, h4 {
   font-family: 'Exo', sans-serif;
 }
 
-ul.posts li {
-	list-style:none;
-}
-
 img.block-center {
   margin: auto;
   display: block;
@@ -39,22 +35,27 @@ img.block-center {
   -ms-user-select: none;
 }
 
-/***** posts list *****/
-.posts .date {
+/***** items list *****/
+
+ul.items li {
+  list-style:none;
+}
+
+.items .date {
   display: inline-block;
   vertical-align: top;
   width: 100px;
 }
 
-.posts .title {
+.items .title {
   display: inline-block;
 }
 
-.posts .subtitle {
+.items .subtitle {
   font-size: 12px;
 }
 
-.posts .hyphen {
+.items .hyphen {
   display: inline-block;
   vertical-align: top;
 }
