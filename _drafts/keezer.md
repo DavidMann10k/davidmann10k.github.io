@@ -24,4 +24,4 @@ The visual inspiration for the build was a [1974 green Ford Country Squire](http
 ![second-paint]({{ site.url }}/assets/images/keezer/second-paint.jpg)
 ![tape]({{ site.url }}/assets/images/keezer/tape.jpg)
 ![trim-taped]({{ site.url }}/assets/images/keezer/trim-taped.jpg)
-![trim-taped]({{ site.url }}/assets/images/keezer/trim-taped.jpg)
+![trim-taped]({{ site.url }}/assets/images/keezer/trim-tacked.jpg)
