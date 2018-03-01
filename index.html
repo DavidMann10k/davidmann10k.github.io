@@ -22,6 +22,22 @@ og_type: website
     </li>
   {% endfor %}
 </ul>
+
+<h2>Projects</h2>
+<ul class="items">
+  {% for item in site.categories.project %}
+    <li>
+      <div class="date">
+        {{ item.date | date: "%b %d, %Y" }}
+      </div>
+      <div class="hyphen">&#8212;</div>
+      <div class="title">
+        <a href="{{ item.url }}">{{ item.title }}</a>
+        <div class="subtitle"><em>{{ item.subtitle }}</em></div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
 <!-- <h4>Pages</h4>
 <ul>
 	{% for page in site.html_pages %}
