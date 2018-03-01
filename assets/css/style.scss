@@ -11,7 +11,8 @@ header h1, h2, h4 {
   font-family: 'Exo', sans-serif;
 }
 
-img.block-center {
+.block-center {
+  text-align: center;
   margin: auto;
   display: block;
 }
