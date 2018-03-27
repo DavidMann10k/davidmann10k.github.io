@@ -1,2 +1,3 @@
 theme: jekyll-theme-tactile
 google_analytics: UA-97104419-1
+permalink: :title
