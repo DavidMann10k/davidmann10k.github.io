@@ -1,11 +1,11 @@
 ---
 layout: post
 title: PIX Datacenter
-header: PIX Datacenter: PACER Center
+header: 'PIX Datacenter: PACER Center'
 subtitle: An intake tracking and reporting application built for PACER
 categories: [ project ]
 
-og_title: PIX Datacenter: PACER Center
+og_title: 'PIX Datacenter: PACER Center'
 og_description: An intake tracking and reporting application built for PACER
 og_image:
 og_type: article
