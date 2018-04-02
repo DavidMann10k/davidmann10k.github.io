@@ -4,6 +4,7 @@ title: Typed Business Cards
 header: Typed Business Cards
 subtitle: Artisanal business cards made with a typewriter
 category: blog
+tags: [ DIY, crafts ]
 
 og_title: Typed Business Cards
 og_description: Making business cards with a typewriter and simple craft supplies.

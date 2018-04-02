@@ -4,6 +4,7 @@ title: Virulent
 header: Virulent
 subtitle: An educational real time strategy game made for the iPad
 categories: [ project ]
+tags: [ Unity 3D, C#, Game Design, Level Design, Pathfinding ]
 
 og_title: Virulent
 og_description: An educational real time strategy game made for the iPad
