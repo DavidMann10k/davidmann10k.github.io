@@ -7,18 +7,19 @@ og_description: Doing projects, solving problems, having fun.
 og_image: /assets/images/mann.jpg
 og_type: website
 ---
+
 <h2>Posts</h2>
 <ul class="items">
   {% for item in site.categories.blog %}
     <li>
+      <div class="title">
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </div>
       <div class="date">
         {{ item.date | date: "%b %d, %Y" }}
       </div>
-      <div class="hyphen">&#8212;</div>
-      <div class="title">
-        <a href="{{ item.url }}">{{ item.title }}</a>
-        <div class="subtitle"><em>{{ item.subtitle }}</em></div>
-      </div>
+      <div class="subtitle">{{ item.subtitle }}</div>
+      <div class="tags"><em>{{ item.tags | join: ", " }}</em></div>
     </li>
   {% endfor %}
 </ul>
@@ -27,17 +28,36 @@ og_type: website
 <ul class="items">
   {% for item in site.categories.project %}
     <li>
+      <div class="title">
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </div>
       <div class="date">
         {{ item.date | date: "%b %d, %Y" }}
       </div>
-      <div class="hyphen">&#8212;</div>
-      <div class="title">
-        <a href="{{ item.url }}">{{ item.title }}</a>
-        <div class="subtitle"><em>{{ item.subtitle }}</em></div>
-      </div>
+      <div class="subtitle">{{ item.subtitle }}</div>
+      <div class="tags"><em>{{ item.tags | join: ", " }}</em></div>
     </li>
   {% endfor %}
 </ul>
+{% comment %}
+
+<!--
+<h2>Skills</h2>
+<ul class="skills">
+    <li>C#</li>
+    <li>Unity 3D</li>
+    <li>Ruby on Rails</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>SASS</li>
+    <li>Postgresql</li>
+    <li>JavaScript</li>
+    <li>jQuery</li>
+    <li>ASP.NET MVC</li>
+    <li>Game Design</li>
+    <li>Git</li>
+</ul> -->
+
 <!-- <h4>Pages</h4>
 <ul>
 	{% for page in site.html_pages %}
@@ -47,3 +67,4 @@ og_type: website
 	{% endfor %}
 </ul>
  -->
+{% endcomment %}

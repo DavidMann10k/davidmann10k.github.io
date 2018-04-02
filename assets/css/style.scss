@@ -17,6 +17,22 @@ header h1, h2, h4 {
   display: block;
 }
 
+
+/***** buttons *****/
+.buttons {
+  float: none;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+/***** footer links *****/
 .link {
   border: 1px solid #666;
   border-radius: 0.25em;
@@ -79,16 +95,23 @@ ul.items li {
 
 .items .date {
   display: inline-block;
+  float: right;
   vertical-align: top;
   width: 100px;
 }
 
 .items .title {
   display: inline-block;
+  font-size: 18px;
 }
 
 .items .subtitle {
-  font-size: 12px;
+  font-size: 13px;
+}
+
+.items .tags {
+  font-size: 13px;
+  font-weight: 300;
 }
 
 .items .hyphen {
