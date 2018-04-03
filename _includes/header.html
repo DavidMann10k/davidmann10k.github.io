@@ -2,6 +2,10 @@
 	<h1> {{ page.header }}</h1>
   {% if page.url != "/" %}
     <a href="{{ site.url }}"}>&larr; Back</a>
+  {% else %}
+    Software Engineer
   {% endif %}
-	<p>{{page.date | date: "%B %d, %Y" }}</p>
+  {% if page.date %}
+    <div class="date">{{page.date | date: "%B %d, %Y" }}</div>
+  {% endif %}
 </header>
