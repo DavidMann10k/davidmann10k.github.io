@@ -39,32 +39,39 @@ og_type: website
     </li>
   {% endfor %}
 </ul>
-{% comment %}
 
-<!--
 <h2>Skills</h2>
 <ul class="skills">
-    <li>C#</li>
-    <li>Unity 3D</li>
-    <li>Ruby on Rails</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>SASS</li>
-    <li>Postgresql</li>
-    <li>JavaScript</li>
-    <li>jQuery</li>
-    <li>ASP.NET MVC</li>
-    <li>Game Design</li>
-    <li>Git</li>
-</ul> -->
+  {% for item in site.data.const.skills %}
+    <li>{{item}}</li>
+  {% endfor %}
+</ul>
 
-<!-- <h4>Pages</h4>
+{% comment %}
+
+<!-- <h2>Skills</h2>
+<ul class="skills">
+    C#
+    Unity 3D
+    Ruby on Rails
+    HTML
+    CSS
+    SASS
+    Postgresql
+    JavaScript
+    jQuery
+    ASP.NET MVC
+    Game Design
+    Git
+</ul>
+
+<h4>Pages</h4>
 <ul>
 	{% for page in site.html_pages %}
 			<li>
 				<a href="{{ page.url }}">{{ page.name }}</a>
 			</li>
 	{% endfor %}
-</ul>
- -->
+</ul> -->
+
 {% endcomment %}
