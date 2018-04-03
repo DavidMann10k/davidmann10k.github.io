@@ -1,3 +1,15 @@
 theme: jekyll-theme-tactile
 google_analytics: UA-97104419-1
 permalink: :title
+
+collections:
+  tag:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: tag
+    values:
+      layout: tag

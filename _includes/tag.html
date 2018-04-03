@@ -1,0 +1,12 @@
+{% assign tag=include.tag %}
+
+{% if site.tags[include.tag] %}
+    <h2>Posts Tagged with <em>{{ include.tag }}</em></h2>
+    <ul class="items">
+      {% for post in site.tags[include.tag] %}
+        {% include post-list-item.html post=post %}
+      {% endfor %}
+    </ul>
+{% else %}
+    <p>No post have yet been tagged with {{include.tag}}.</p>
+{% endif %}

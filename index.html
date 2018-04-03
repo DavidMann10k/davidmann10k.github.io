@@ -1,6 +1,6 @@
 ---
 layout: default
-header: Mann.engineer
+header: David Mann
 
 og_title: David Mann, Minneapolis Software Engineer
 og_description: Doing projects, solving problems, having fun.
@@ -8,12 +8,9 @@ og_image: /assets/images/mann.jpg
 og_type: website
 ---
 
-<h2>Posts</h2>
-<ul class="items">
-  {% for post in site.categories.blog %}
-    {% include post-list-item.html post=post %}
-  {% endfor %}
-</ul>
+{% include skills.html %}
+
+<hr>
 
 <h2>Projects</h2>
 <ul class="items">
@@ -22,31 +19,16 @@ og_type: website
   {% endfor %}
 </ul>
 
-{% comment %}
-<h2>Skills</h2>
-<ul class="skills">
-  {% for item in site.data.const.skills %}
-    <li>{{item}}</li>
+<hr>
+
+<h2>Posts</h2>
+<ul class="items">
+  {% for post in site.categories.blog %}
+    {% include post-list-item.html post=post %}
   {% endfor %}
 </ul>
 
-
-<!-- <h2>Skills</h2>
-<ul class="skills">
-    C#
-    Unity 3D
-    Ruby on Rails
-    HTML
-    CSS
-    SASS
-    Postgresql
-    JavaScript
-    jQuery
-    ASP.NET MVC
-    Game Design
-    Git
-</ul>
-
+{% comment %}
 <h4>Pages</h4>
 <ul>
 	{% for page in site.html_pages %}

@@ -21,6 +21,25 @@ header h1, h2, h4 {
   float: right;
 }
 
+.skills a {
+  border: 1px solid #666;
+  border-radius: 0.25em;
+  display: inline-block;
+  font-size: 11px;
+  margin: 2px 0px;
+  padding: 2px 5px;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.items .tags {
+  font-size: 13px;
+  font-weight: 300;
+}
+
 /***** buttons *****/
 .buttons {
   float: none;
@@ -110,11 +129,6 @@ ul.items li {
 
 .items .subtitle {
   font-size: 13px;
-}
-
-.items .tags {
-  font-size: 13px;
-  font-weight: 300;
 }
 
 .items .hyphen {
