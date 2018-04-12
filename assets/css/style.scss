@@ -28,11 +28,15 @@ header h1, h2, h4 {
   font-size: 11px;
   margin: 2px 0px;
   padding: 2px 5px;
+  text-shadow: none;
   user-select: none;
   white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+}
+.skills a:hover {
+  background: #ddd;
 }
 
 .items .tags {
