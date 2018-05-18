@@ -3,7 +3,7 @@ layout: post
 title: Crosswired - GGJ 2018
 header: Crosswired - GGJ 2018
 subtitle: VR experience created for the Global Game Jam 2018
-categories: [ blog, project ]
+categories: [ project ]
 
 og_title: Crosswired - GGJ 2018
 og_description: VR experience created for the Global Game Jam 2018

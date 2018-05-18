@@ -4,7 +4,7 @@ title: PIX Datacenter
 header: 'PIX Datacenter: PACER Center'
 subtitle: An intake tracking and reporting application built for PACER
 categories: [ project ]
-tags: [Ruby on Rails, PostgreSQL, Ruby, HTML, CSS, SASS, JavaScript, jQuery, Rackspace, Ubuntu]
+tags: [Ruby on Rails, 'Web Development', PostgreSQL, Ruby, HTML, CSS, SASS, JavaScript, jQuery, Rackspace, Ubuntu]
 
 og_title: 'PIX Datacenter: PACER Center'
 og_description: An intake tracking and reporting application built for PACER

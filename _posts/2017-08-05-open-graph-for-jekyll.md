@@ -4,7 +4,7 @@ title: Open Graph for Jekyll
 header: Open Graph for Jekyll
 subtitle: Presenting a website built with Jekyll as a rich social graph object
 category: blog
-tags: [HTML, Jekyll, Open Graph]
+tags: ['Web Development', HTML, Jekyll, Open Graph]
 
 og_title: Open Graph for Jekyll
 og_description: Present your site, made with Jekyll, as a rich social graph object using the Open Graph protocol.
