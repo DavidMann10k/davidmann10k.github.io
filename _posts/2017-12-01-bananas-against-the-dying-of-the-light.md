@@ -4,6 +4,7 @@ title: 'VR Prototype: Skeletons and Explosive Bananas'
 header: Bananas Against the Dying of the Light
 subtitle: 'A VR prototype made in Unity 3D'
 categories: [ project ]
+tags: ['VR', 'Game Development', Unity 3D, SteamVR, C#, Prototyping]
 
 og_title: Crosswired - GGJ 2018
 og_description: VR experience created for the Global Game Jam 2018
