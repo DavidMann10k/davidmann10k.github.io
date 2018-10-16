@@ -2,13 +2,13 @@
 layout: post
 title: Smooth Moves
 header: Smooth Moves
-subtitle: A custom web application built for tracking and managing gigs, customers, and workers.
+subtitle: A custom web application built to track and manage gigs, customer info, worker assignments
 categories: [ project ]
 tags: [Ruby on Rails, 'Web Development', PostgreSQL, Ruby, HTML, CSS, SASS, Git, Heroku]
 
-og_title: Crosswired - GGJ 2018
-og_description: VR experience created for the Global Game Jam 2018
-og_image: /assets/images/crosswired/crosswired-logo.png
+og_title: Smooth Moves
+og_description: A custom web application built to track and manage gigs, customer info, worker assignments.
+og_image:
 og_type: article
 ---
 
