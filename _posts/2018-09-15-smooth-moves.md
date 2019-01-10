@@ -12,7 +12,7 @@ og_image:
 og_type: article
 ---
 
-Smooth Move is an application built for a local client that needed a custom web application for tracking and managing moving jobs, customers and workers. It was created entirely by Mann.Engineer and was completed on time and on budget from specification to going live last August.
+Smooth Moves is an application built for a local client that needed a custom web application for tracking and managing moving jobs, customers and workers. It was created entirely by Mann.Engineer and was completed on time and on budget from specification to going live last August.
 
 ## Technology
 
