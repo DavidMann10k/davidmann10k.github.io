@@ -4,7 +4,7 @@ title: Smooth Moves
 header: Smooth Moves
 subtitle: A custom web application built to track and manage gigs, customer info, worker assignments
 categories: [ project ]
-tags: [Ruby on Rails, 'Web Development', PostgreSQL, Ruby, HTML, CSS, SASS, Git, Heroku]
+tags: [Ruby on Rails, 'Web Development', PostgreSQL, Ruby, Bootstrap, HTML, CSS, SASS, Git, Heroku]
 
 og_title: Smooth Moves
 og_description: A custom web application built to track and manage gigs, customer info, worker assignments.

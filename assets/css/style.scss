@@ -39,7 +39,7 @@ header h1, h2, h4 {
   background: #ddd;
 }
 
-.items .tags {
+.tags {
   font-size: 13px;
   font-weight: 300;
 }
@@ -119,23 +119,23 @@ ul.items li {
   list-style:none;
 }
 
-.items .date {
+.date {
   display: inline-block;
   float: right;
   vertical-align: top;
   width: 100px;
 }
 
-.items .title {
+.title {
   display: inline-block;
   font-size: 18px;
 }
 
-.items .subtitle {
+.subtitle {
   font-size: 13px;
 }
 
-.items .hyphen {
+.hyphen {
   display: inline-block;
   vertical-align: top;
 }
