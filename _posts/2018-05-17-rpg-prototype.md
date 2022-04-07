@@ -3,7 +3,7 @@ layout: post
 title: RPG Prototype Built in Unity
 header: RPG Prototype Built in Unity
 subtitle: Overview of tools used to build an RPG in Unity
-categories: [ blog ]
+categories: [ blog, video ]
 tags: ['Game Development', Unity 3D, C#, GAIA, 'Character Controller', Cinemachine, Rewired, Prototyping]
 
 og_title: RPG Prototype Built in Unity
